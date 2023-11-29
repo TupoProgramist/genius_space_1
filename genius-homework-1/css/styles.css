@@ -1,0 +1,98 @@
+:root
+{
+    --prim-lig-col: #FFFFFF;
+    --prim-act-col: #2B7FFF;
+    --prim-dar-col: #011C44;
+    --subtxt-col: #747272;
+    --why-us-col: black;
+    --intro: 140px;
+    --h1: 61px;
+    --h2: 32px;
+    --h3: 22px;
+    --h4: 22px;
+    --h5: 18px;
+    --h6: 16px;
+    --h7: 13px;
+    --h8: 14px;
+    --h9: 12px;
+}
+
+/* The biggest parts */
+body
+{
+    color: var(--prim-dar-col);
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+}
+footer{
+    font-size: var(--h6);
+}
+.logo, h1, h2
+{
+    font-family: 'Play', 'Roboto';
+}
+.logo
+{
+    font-size: var(--h3);
+    color: var(--prim-acy-col);
+}
+
+/* Headings */
+h1
+{
+    font-size: var(--intro);
+    color: var(--prim-act-col);
+}
+h2
+{
+    font-size: var(--h1);
+}
+
+/* Active elements */
+button
+{
+    background-color: var(--prim-act-col);
+    color: var(--prim-lig-col);
+    border: none;
+    font-size: 18px;
+}
+input
+{
+    font-size: 13px
+}
+
+/* Text specialities */
+.subtext
+{
+    font-size: 12px;
+    color: var(--subtxt-col);
+}
+.act-text
+{
+    color: var(--act-color);
+} 
+.bold
+{
+  font-weight: 600;  
+}
+
+/* Parts classes */
+.header-nav
+{
+    font-size: var(--h5);
+}
+.header-text{
+    font-size: var(--h5);
+}
+.why-us{
+    font-size: var(--h5);
+}
+.proc{
+    font-size: var(--h3);
+}
+.find{
+    font-size: var(--h3);
+}
+
+
